@@ -38,9 +38,9 @@ Why you prompted to enter admin password? `Quartz Event` api requires admin priv
 
 Should I worry about privacy and security? No. No binaries are downloaded, app is building from sources. So everything is transparent.
 
-How to remove:
+How to uninstall:
 
-`bash remove.bash`
+`bash clean.bash`
 
 
 PS. For developers who know Cocoa and have developer certificate. You can help with writing Perf pane and privileged helper tool. (which requires signing). PRs are welcome.
