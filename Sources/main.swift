@@ -37,7 +37,9 @@ var state = State()
 
 let config = Config.CreateConfig()
 
-print(config)
+NSLog("started")
+
+NSLog("\(config)")
 
 func callback(proxy: CGEventTapProxy, evType: CGEventType, ev: CGEvent, ref: UnsafeMutableRawPointer?) -> Unmanaged<CGEvent>? {
 
