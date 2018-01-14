@@ -1,0 +1,1 @@
+sudo tail -f /tmp/butterfly_fixer/*

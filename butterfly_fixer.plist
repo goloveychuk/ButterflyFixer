@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>butterfly_fixer</string>
+	<key>Program</key>
+	<string>/usr/local/bin/butterfly_fixer</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/tmp/butterfly_fixer/stderr.err</string>
+	<key>StandardOutPath</key>
+	<string>/tmp/butterfly_fixer/stdout.err</string>
+	<key>ThrottleInterval</key>
+    <integer>10</integer>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+</dict>
+</plist>
