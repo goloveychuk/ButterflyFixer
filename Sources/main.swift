@@ -43,8 +43,11 @@ NSLog("\(config)")
 
 func callback(proxy: CGEventTapProxy, evType: CGEventType, ev: CGEvent, ref: UnsafeMutableRawPointer?) -> Unmanaged<CGEvent>? {
 
-    let keycode = ev.getIntegerValueField(.keyboardEventKeycode)
     
+    let keycode = ev.getIntegerValueField(.keyboardEventKeycode)
+    #if LOG
+        NSLog("ev_type: \(evType == .keyDown ? "keydown" : "keyup"), code: \(keycode)")
+    #endif
     let origEv = Unmanaged.passUnretained(ev)
     
     if !config.black_listed.contains(keycode) {
