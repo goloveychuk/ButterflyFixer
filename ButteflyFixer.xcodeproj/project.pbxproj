@@ -7,28 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB0B380E2322E78E00838665 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0B380D2322E78E00838665 /* main.swift */; };
+		DB4C9A9425D2E0A900CF85A1 /* logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4C9A9325D2E0A900CF85A1 /* logic.swift */; };
+		DBBA052B25CB08FD00775827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA052A25CB08FD00775827 /* AppDelegate.swift */; };
+		DBBA052D25CB08FD00775827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA052C25CB08FD00775827 /* ViewController.swift */; };
+		DBBA052F25CB08FD00775827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBA052E25CB08FD00775827 /* Assets.xcassets */; };
+		DBBA053225CB08FD00775827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBA053025CB08FD00775827 /* Main.storyboard */; };
+		DBBA053C25CB09BB00775827 /* allKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA053B25CB09BB00775827 /* allKeys.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		DB0B38082322E78E00838665 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		DB0B380A2322E78E00838665 /* ButteflyFixer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ButteflyFixer; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0B380D2322E78E00838665 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DB0B38142322E7B100838665 /* allKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allKeys.swift; sourceTree = "<group>"; };
+		DB4C9A9325D2E0A900CF85A1 /* logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logic.swift; sourceTree = "<group>"; };
+		DBBA051425CB083B00775827 /* AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppApp.swift; sourceTree = "<group>"; };
+		DBBA051625CB083B00775827 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBBA051825CB083C00775827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBBA051B25CB083C00775827 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBBA051D25CB083C00775827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBA051E25CB083C00775827 /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
+		DBBA052825CB08FD00775827 /* ButterflyFixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButterflyFixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBA052A25CB08FD00775827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBBA052C25CB08FD00775827 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBBA052E25CB08FD00775827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBBA053125CB08FD00775827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBBA053325CB08FD00775827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBA053425CB08FD00775827 /* App2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App2.entitlements; sourceTree = "<group>"; };
+		DBBA053B25CB09BB00775827 /* allKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DB0B38072322E78E00838665 /* Frameworks */ = {
+		DBBA052525CB08FD00775827 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				DB0B380C2322E78E00838665 /* ButteflyFixer */,
+				DBBA051325CB083B00775827 /* App */,
+				DBBA052925CB08FD00775827 /* App2 */,
 				DB0B380B2322E78E00838665 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,7 +59,7 @@
 		DB0B380B2322E78E00838665 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB0B380A2322E78E00838665 /* ButteflyFixer */,
+				DBBA052825CB08FD00775827 /* ButterflyFixer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,29 +68,66 @@
 			isa = PBXGroup;
 			children = (
 				DB0B380D2322E78E00838665 /* main.swift */,
+				DB0B38142322E7B100838665 /* allKeys.swift */,
 			);
 			path = ButteflyFixer;
+			sourceTree = "<group>";
+		};
+		DBBA051325CB083B00775827 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DBBA051425CB083B00775827 /* AppApp.swift */,
+				DBBA051625CB083B00775827 /* ContentView.swift */,
+				DBBA051825CB083C00775827 /* Assets.xcassets */,
+				DBBA051D25CB083C00775827 /* Info.plist */,
+				DBBA051E25CB083C00775827 /* App.entitlements */,
+				DBBA051A25CB083C00775827 /* Preview Content */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DBBA051A25CB083C00775827 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBBA051B25CB083C00775827 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBBA052925CB08FD00775827 /* App2 */ = {
+			isa = PBXGroup;
+			children = (
+				DBBA052A25CB08FD00775827 /* AppDelegate.swift */,
+				DBBA052C25CB08FD00775827 /* ViewController.swift */,
+				DBBA052E25CB08FD00775827 /* Assets.xcassets */,
+				DBBA053025CB08FD00775827 /* Main.storyboard */,
+				DBBA053325CB08FD00775827 /* Info.plist */,
+				DBBA053425CB08FD00775827 /* App2.entitlements */,
+				DBBA053B25CB09BB00775827 /* allKeys.swift */,
+				DB4C9A9325D2E0A900CF85A1 /* logic.swift */,
+			);
+			path = App2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB0B38092322E78E00838665 /* ButteflyFixer */ = {
+		DBBA052725CB08FD00775827 /* ButterflyFixer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB0B38112322E78E00838665 /* Build configuration list for PBXNativeTarget "ButteflyFixer" */;
+			buildConfigurationList = DBBA053525CB08FD00775827 /* Build configuration list for PBXNativeTarget "ButterflyFixer" */;
 			buildPhases = (
-				DB0B38062322E78E00838665 /* Sources */,
-				DB0B38072322E78E00838665 /* Frameworks */,
-				DB0B38082322E78E00838665 /* CopyFiles */,
+				DBBA052425CB08FD00775827 /* Sources */,
+				DBBA052525CB08FD00775827 /* Frameworks */,
+				DBBA052625CB08FD00775827 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ButteflyFixer;
-			productName = ButteflyFixer;
-			productReference = DB0B380A2322E78E00838665 /* ButteflyFixer */;
-			productType = "com.apple.product-type.tool";
+			name = ButterflyFixer;
+			productName = App2;
+			productReference = DBBA052825CB08FD00775827 /* ButterflyFixer.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -88,12 +135,12 @@
 		DB0B38022322E78E00838665 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Vadym Holoveichuk";
 				TargetAttributes = {
-					DB0B38092322E78E00838665 = {
-						CreatedOnToolsVersion = 10.3;
+					DBBA052725CB08FD00775827 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
@@ -103,27 +150,54 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = DB0B38012322E78E00838665;
 			productRefGroup = DB0B380B2322E78E00838665 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB0B38092322E78E00838665 /* ButteflyFixer */,
+				DBBA052725CB08FD00775827 /* ButterflyFixer */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		DBBA052625CB08FD00775827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBA052F25CB08FD00775827 /* Assets.xcassets in Resources */,
+				DBBA053225CB08FD00775827 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		DB0B38062322E78E00838665 /* Sources */ = {
+		DBBA052425CB08FD00775827 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB0B380E2322E78E00838665 /* main.swift in Sources */,
+				DB4C9A9425D2E0A900CF85A1 /* logic.swift in Sources */,
+				DBBA052D25CB08FD00775827 /* ViewController.swift in Sources */,
+				DBBA053C25CB09BB00775827 /* allKeys.swift in Sources */,
+				DBBA052B25CB08FD00775827 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBBA053025CB08FD00775827 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBBA053125CB08FD00775827 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DB0B380F2322E78E00838665 /* Debug */ = {
@@ -241,19 +315,43 @@
 			};
 			name = Release;
 		};
-		DB0B38122322E78E00838665 /* Debug */ = {
+		DBBA053625CB08FD00775827 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = App2/App2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = App2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = goloveychuk.App2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		DB0B38132322E78E00838665 /* Release */ = {
+		DBBA053725CB08FD00775827 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = App2/App2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = App2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = goloveychuk.App2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -271,11 +369,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB0B38112322E78E00838665 /* Build configuration list for PBXNativeTarget "ButteflyFixer" */ = {
+		DBBA053525CB08FD00775827 /* Build configuration list for PBXNativeTarget "ButterflyFixer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB0B38122322E78E00838665 /* Debug */,
-				DB0B38132322E78E00838665 /* Release */,
+				DBBA053625CB08FD00775827 /* Debug */,
+				DBBA053725CB08FD00775827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
